@@ -1,0 +1,54 @@
+body{
+    background-image: url('hatter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.main-div{
+    max-width: 70%;
+    border-left: 20px solid gray;
+    border-right: 20px  solid gray;
+    margin: 20px;
+    font-size: 1.2;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+
+h2 {
+    letter-spacing: 4px;
+}
+
+h3 {
+    letter-spacing: 3px;
+}
+
+img{
+    float: right;
+    transform: rotate(5deg);
+    border: 3px solid purple;
+    border-radius: 5px;
+    margin:2px;
+    box-shadow: 5px 5px 3px black;
+    max-height: 30vh;
+}
+
+ul{
+    font-weight: bold;
+    font-style: italic;
+    list-style-type: square;
+}
+
+input{
+    color: green;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    width: 50px;
+    border-radius: 10px;
+}
